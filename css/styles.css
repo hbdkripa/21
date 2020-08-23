@@ -1,0 +1,244 @@
+/***********************
+    BASE SETUP
+************************/
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+
+
+/***********************
+    BASE FONT STYLES
+************************/
+
+html, body {
+    font-size: 62.5%;
+    margin: 0; 
+}
+
+h1, h2 {
+    font-size: 3.5rem;
+    color: white;
+    margin: 0;
+    padding: 30px;
+    font-family: 'Bree Serif', serif;
+    text-shadow: 1px 1px 1px black,  
+    1px 1px 1px black,
+    1px 1px 1px black,
+    1px 1px 1px black;
+}
+
+h1 a, h2 a, li a, footer a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    font-size: 3rem;
+    font-family: 'Bree Serif', serif;
+    color: white;
+    padding: 30px;
+}
+
+h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/******************************
+    HEADER
+*******************************/
+
+header {
+    position: fixed;
+    z-index: 30;
+}
+
+.black {
+    background-color: black;
+}
+
+
+
+
+/******************************
+    IMAGE SPACE CONTAINERS
+*******************************/
+
+/*.scroll-container {
+    overflow: scroll;
+    height: 100vh;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+}*/
+
+.img-space {
+    height: 100vh;
+   /*scroll-snap-align: start;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.img-main {
+    background-image: url('../assets/background/mosaic 2.jpg');
+    background-position: top;
+
+}
+
+.img-intro{
+    background-image: url('../assets/background/mosaic 1.jpg');
+    background-position: top;
+}
+
+.img-group{
+    background-image: url('../assets/background/friends.jpg');
+    background-position: top;
+}
+
+.img-meal{
+    background-image: url('../assets/background/sil.jpg');
+    background-position: left;
+}
+
+.img-love{
+    background-image: url('../assets/background/333.jpg');
+    background-position: center;
+}
+
+.img-beach{
+    background-image: url('../assets/background/buffcrap.jpg');
+    background-position: center;
+}
+
+.img-budapest{
+    background-image: url('../assets/background/malay.jpg');
+    background-position: right;
+}
+
+.img-adventures{
+    background-image: url('../assets/background/kbeach.jpg');
+    background-position: center;
+}
+
+.img-wishes {
+    background-image: url('../assets/background/bamboo.jpg');
+    background-position: center;
+}
+
+/******************************
+    ICONS
+*******************************/
+
+.fa-bars {
+    color: white;
+    padding: 40px;
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 1px black,  
+    1px 1px 1px black,
+    1px 1px 1px black,
+    1px 1px 1px black;
+}
+
+.arrow {
+    color: white;
+    font-size: 3.5rem;
+    padding: 20px;
+    z-index: 20;
+    text-shadow: 1px 1px 1px black,  
+    1px 1px 1px black,
+    1px 1px 1px black,
+    1px 1px 1px black;
+}
+
+.down {
+    z-index: 20;
+}
+.arrow a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/******************************
+    NAVIGATION
+*******************************/
+nav ul {
+    display: none;
+    text-align: center;
+    width: 100vw;
+    height: 100vw;
+
+}
+
+nav li {
+    color: white;
+    font-size: 3rem;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+}
+.header-nav {
+    position: relative;
+    
+    flex-wrap: wrap;
+    height: auto;
+    z-index: 50;
+}
+
+
+
+
+/******************************
+    PHOTO PAGES
+*******************************/
+
+.photo-pages {
+    background: black;
+}
+
+.main-block {
+    margin: 100px 100px 0px 100px;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    margin: 10px;
+}
+
+.profile {
+    border-radius: 100px;
+    z-index: 60;
+}
+
+audio {
+    z-index: 60;
+}
+/******************************
+    FOOTER
+*******************************/
+
+footer {
+    text-align: center;
+}
+
+

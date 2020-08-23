@@ -1,0 +1,74 @@
+@media all and (max-width:1024px)
+{
+
+    img
+    {
+      
+     width: 90%;
+     
+
+    } 
+
+    ul
+    {
+        width:auto;
+        height: 80px;
+        size: auto;
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    .block1
+    {
+        width: 500px;;
+        height: 600px;
+        
+    }
+    
+    .block2
+    {
+        height: 500px;
+        width: 800px;
+    }
+
+    p
+    {
+        font-size: 1.7em;
+    }
+   
+    .img2
+    {
+        
+        
+        width: 60%;
+        height: auto;
+        
+    }
+
+    h2 
+    {
+        font-size: 2.2em;
+    }
+   
+   video 
+   { 
+
+    width: 53em;
+    }      
+
+    iframe
+    {
+        width: 53em;
+        height: em;
+    }
+
+    .gif1
+{
+    
+    
+    
+    width: 65%;
+    margin:auto;
+}
+    
+}
